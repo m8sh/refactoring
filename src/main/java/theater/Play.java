@@ -1,12 +1,23 @@
 package theater;
 
+/**
+ *  Elo.
+ */
 public class Play {
 
-    public String name;
-    public String type;
+    private String name;
+    private String type;
 
     public Play(String name, String type) {
         this.name = name;
         this.type = type;
+    }
+
+    public Object getName() {
+        return name;
+    }
+
+    public String getType() {
+        return type;
     }
 }
